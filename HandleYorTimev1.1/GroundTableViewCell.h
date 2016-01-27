@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface GroundTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *cellTitle;
 @property (weak, nonatomic) IBOutlet UILabel *cellUser;
 @property (weak, nonatomic) IBOutlet UILabel *cellDate;
+@property (strong, nonatomic) IBOutlet UIImageView *userImage;
 
 @end

@@ -11,8 +11,13 @@
 
 
 @interface ComposeViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextView *groundTextView;
+@property (weak, nonatomic) IBOutlet UITextField *groundTextView;
 @property (weak, nonatomic) IBOutlet UILabel *charRemaningLabel;
 - (IBAction)sendGround:(id)sender;
 
+
+
+
 @end
+
+

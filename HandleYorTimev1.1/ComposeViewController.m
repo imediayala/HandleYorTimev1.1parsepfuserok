@@ -25,7 +25,14 @@
     } else {
         // show the signup or login screen
     }
+    
 
+
+//     Make the main view's background clear, the second view's background transparent.
+//    self.view.backgroundColor = [UIColor clearColor];
+//    UIView* backView = [[UIView alloc] initWithFrame:self.view.frame];
+//    backView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
+//    [self.view addSubview:backView];
     
 }
 
@@ -33,6 +40,25 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//////////Hide keyboard Method :)
+
+//- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event   {
+//    [self.groundTextView resignFirstResponder];
+//   
+//    
+//}
+//
+//
+//-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+//    if (textField) {
+//        [textField resignFirstResponder];
+//    }
+//    
+//    return NO;
+//}
+//////////////////////////////////
+
 
 /*
 #pragma mark - Navigation
@@ -46,21 +72,8 @@
 
 - (IBAction)sendGround:(id)sender {
     
-//    PFObject *Ground = [PFObject objectWithClassName:@"Grounds"];
-//    Ground[@"content"] = _groundTextView.text;
-//    
-//    
-//    [Ground saveInBackground];
     
-    
-    
-    //Upload a new picture
-    //1
-    
-//    PFFile *file = [PFFile fileWithName:@"img" data:pictureData];
-//    [file saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-  
-            //2
+
             //Add the image to the object, and add the comment and the user
             PFObject *Ground = [PFObject objectWithClassName:@"Grounds"];
             [Ground setObject:[PFUser currentUser].username forKey:@"user"];
@@ -71,11 +84,14 @@
                 if (succeeded){
                     //Go back to the wall
                     [self.navigationController popViewControllerAnimated:YES];
+                    NSLog(@"%@", Ground.objectId);
                 }
                 else{
                     NSString *errorString = [[error userInfo] objectForKey:@"error"];
                     UIAlertView *errorAlertView = [[UIAlertView alloc] initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
                     [errorAlertView show];
+                    
+                    
                 }
             }];
         }

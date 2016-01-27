@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Parse.xcscheme</key>
+		<key>Pods-TPKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>040C77F61BFD11C15DF0F497</key>
+		<key>00D67985ADD590066C717163</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>350D924872EBBDBA53D42554</key>
+		<key>261624AF08790F65DDFA67C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4AECE9E1D1A3F94A9C8B527F</key>
+		<key>D467A8CB5C06D47772C7B612</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98789C50E4888ED72589CA59</key>
+		<key>DDBE69F36248E74FD28F5C6F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC4CA84FFFD18FBCD73848BC</key>
+		<key>E130BBF49C7B10CB58504C15</key>
 		<dict>
 			<key>primary</key>
 			<true/>

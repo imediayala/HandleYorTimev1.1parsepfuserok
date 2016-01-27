@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39E2389E-71E0-42EB-B354-369894F61197</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HandleYorTimev1.1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF2B398C96CD3D57B42CA1335245148ACBD278DF</key>
+		<string>https://github.com/imediayala/HandleYorTimev1.1parsepfuserok.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HandleYorTimev1.1.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF2B398C96CD3D57B42CA1335245148ACBD278DF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/imediayala/HandleYorTimev1.1parsepfuserok.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF2B398C96CD3D57B42CA1335245148ACBD278DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF2B398C96CD3D57B42CA1335245148ACBD278DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HandleYorTimev1.1parsepfuserok</string>
+		</dict>
+	</array>
+</dict>
+</plist>

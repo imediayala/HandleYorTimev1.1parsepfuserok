@@ -7,10 +7,14 @@
 //
 
 #import "GroundTableViewCell.h"
+#import <Parse/Parse.h>
 
 @implementation GroundTableViewCell
 
 @synthesize cellTitle;
+@synthesize cellDate;
+@synthesize cellUser;
+
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -20,6 +24,9 @@
     }
     return self;
 }
+
+
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {

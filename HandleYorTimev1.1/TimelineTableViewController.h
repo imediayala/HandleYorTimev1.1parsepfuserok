@@ -8,13 +8,32 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-#import"GroundTableViewCell.h"
+#import <ParseUI/ParseUI.h>
+#import "GroundTableViewCell.h"
+#import "DetailViewController.h"
 
-@interface TimelineTableViewController : UITableViewController
-<UITableViewDelegate> {
+
+
+@interface TimelineTableViewController : PFQueryTableViewController
+<UITableViewDelegate, NSObject > {
+    
     
     NSArray *groundsArray;
+   
+ 
 }
+
+
+
 @property (strong, nonatomic) IBOutlet UITableView *groundTable;
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) PFObject *object;
+
+
+- (IBAction)commentButton:(id)sender;
+
+
+    
 
 @end

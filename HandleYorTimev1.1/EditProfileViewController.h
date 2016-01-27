@@ -8,9 +8,48 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import "GroundTableViewCell.h"
 
 
-@interface EditProfileViewController : UIViewController
-- (IBAction)LogoutButton:(id)sender;
+
+@interface EditProfileViewController : UIViewController<
+
+NSObject>
+{
+
+
+    NSArray *EditsArray;
+    
+}
+
+@property (nonatomic, strong) PFObject *profile;
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *userImage;
+@property (strong, nonatomic) IBOutlet UILabel *userProfile;
+@property (strong, nonatomic) IBOutlet UILabel *phoneProfile;
+
+@property (strong, nonatomic) IBOutlet UILabel *mailProfile;
+
+
+
+@property (weak, nonatomic) IBOutlet UIView *favoritesOverlayView;
+
+@property (strong, nonatomic) IBOutlet UITextView *notesProfileLabel;
+
+
+@property (strong, nonatomic) IBOutlet UITextView *favouritesLabelProfile;
+@property (strong, nonatomic) IBOutlet UIView *notesOverlayView;
+
+@property (strong, nonatomic) IBOutlet UIView *profileOverlayView;
+
+
+
+- (IBAction)favouritesButton:(id)sender;
+
+- (IBAction)contactButton:(id)sender;
+
+- (IBAction)notesButton:(id)sender;
+
 
 @end

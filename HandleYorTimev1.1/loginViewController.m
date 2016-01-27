@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -31,6 +33,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//////////Hide keyboard Method :)
+
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event   {
+    [self.loginUsernameField resignFirstResponder];
+    [self.loginPasswordField resignFirstResponder];
+    
+}
+
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    if (textField) {
+        [textField resignFirstResponder];
+    }
+
+    return NO;
+}
+//////////////////////////////////
 
 /*
 #pragma mark - Navigation
